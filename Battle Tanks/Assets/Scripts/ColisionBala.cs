@@ -4,24 +4,21 @@ using UnityEngine;
 
 public class ColisionBala : MonoBehaviour
 {
-    public int VidasBlinky = 5;
+    private void Start()
+    {
+        Destroy(gameObject, 1.5f);
+    }
+
+    private void Update()
+    {
+
+    }
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "Paredes" || collision.gameObject.name == "Blinky")
+        if (collision.gameObject.name =="Paredes")
         {
             Destroy(gameObject);
-        }
-
-        if (collision.gameObject.name == "Blinky")
-        {
-            VidasBlinky =VidasBlinky-1;
-
-            if (VidasBlinky ==0)
-            {
-                Destroy(collision.gameObject);
-            }           
-            
         }
     }
 }

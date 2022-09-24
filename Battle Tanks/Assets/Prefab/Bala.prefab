@@ -13,10 +13,10 @@ GameObject:
   - component: {fileID: 8508076325393278700}
   - component: {fileID: 8508076325393278703}
   - component: {fileID: 8508076325393278702}
-  - component: {fileID: 8508076325393278699}
+  - component: {fileID: -6607425197387805300}
   m_Layer: 0
   m_Name: Bala
-  m_TagString: Untagged
+  m_TagString: Bala
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113,7 +113,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &8508076325393278699
+--- !u!114 &-6607425197387805300
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

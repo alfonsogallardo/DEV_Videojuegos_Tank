@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerTankMove : MonoBehaviour
 {
@@ -42,5 +43,14 @@ public class PlayerTankMove : MonoBehaviour
 
         }
 
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            VolverMenu();
+        }
+    }
+
+    public void VolverMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }

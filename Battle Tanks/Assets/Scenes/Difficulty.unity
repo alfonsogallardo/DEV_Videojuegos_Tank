@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 86133983}
   - component: {fileID: 86133982}
   - component: {fileID: 86133981}
+  - component: {fileID: 86133984}
   m_Layer: 5
   m_Name: Btn_Normal
   m_TagString: Untagged
@@ -244,6 +245,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 86133979}
   m_CullTransparentMesh: 1
+--- !u!114 &86133984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86133979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d552c7eaf4dfb9c4797b48546efac033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dificultad: 2
 --- !u!1 &187546738
 GameObject:
   m_ObjectHideFlags: 0
@@ -681,6 +695,7 @@ GameObject:
   - component: {fileID: 740566916}
   - component: {fileID: 740566915}
   - component: {fileID: 740566914}
+  - component: {fileID: 740566917}
   m_Layer: 5
   m_Name: Btn_Dificil
   m_TagString: Untagged
@@ -790,6 +805,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 740566912}
   m_CullTransparentMesh: 1
+--- !u!114 &740566917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740566912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d552c7eaf4dfb9c4797b48546efac033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dificultad: 3
 --- !u!1 &836361955
 GameObject:
   m_ObjectHideFlags: 0
@@ -802,6 +830,7 @@ GameObject:
   - component: {fileID: 836361959}
   - component: {fileID: 836361958}
   - component: {fileID: 836361957}
+  - component: {fileID: 836361960}
   m_Layer: 5
   m_Name: Btn_Facil
   m_TagString: Untagged
@@ -923,6 +952,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 836361955}
   m_CullTransparentMesh: 1
+--- !u!114 &836361960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836361955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d552c7eaf4dfb9c4797b48546efac033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dificultad: 1
 --- !u!1 &1214332028
 GameObject:
   m_ObjectHideFlags: 0

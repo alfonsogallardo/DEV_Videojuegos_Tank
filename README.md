@@ -7,3 +7,8 @@ A o Flecha hacia a la izquierda: Izquierda
 S o Flecha hacia abajo: Atras
 D o Flecha hacia la derecha: Derecha
 Barra Espaciadora: Disparar
+
+Dificultad
+Facil: 1 Vida cada tanque enemigo
+Normal: 3 Vida cada tanque enemigo
+Dificil: 5 Vida cada tanque enemigo

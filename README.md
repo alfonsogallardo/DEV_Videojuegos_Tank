@@ -10,5 +10,5 @@ Barra Espaciadora: Disparar
 
 Dificultad
 Facil: 1 Vida cada tanque enemigo
-Normal: 3 Vida cada tanque enemigo
-Dificil: 5 Vida cada tanque enemigo
+Normal: 2 Vidas cada tanque enemigo
+Dificil: 3 Vidas cada tanque enemigo

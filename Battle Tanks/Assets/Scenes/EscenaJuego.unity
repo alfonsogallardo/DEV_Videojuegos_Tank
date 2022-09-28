@@ -2355,7 +2355,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\"Esc\"\t\tMenu principal \n\"WASD\"\tMovimiento\n\"Space\"\tDisparo"
+  m_Text: "\"Esc\" Menu principal \n\"WASD\"\tMovimiento\n\"Space\"\tDisparo"
 --- !u!222 &1811881306
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2986,15 +2986,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4902838633172910267, guid: f631c127fa6bade4da2cdb75a704eccc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.05000051
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 4902838633172910267, guid: f631c127fa6bade4da2cdb75a704eccc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.96
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 4902838633172910267, guid: f631c127fa6bade4da2cdb75a704eccc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.3000002
+      value: -2.61
       objectReference: {fileID: 0}
     - target: {fileID: 4902838633172910267, guid: f631c127fa6bade4da2cdb75a704eccc, type: 3}
       propertyPath: m_LocalRotation.w
